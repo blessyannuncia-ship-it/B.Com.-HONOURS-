@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: timesroman, sans-serif;
+  background-color: #f4f6f8;
+  size: 100px;
+}
+
+.navbar {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-right a {
+  color: white;
+  text-decoration: none;
+  background-color: #2563eb;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.nav-right a:hover {
+  background-color: #1d4ed8;
+}
+
+.dashboard {
+  padding: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+/* Logo size control */
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+/* QR code size control */
+.qr {
+  width: 180px;
+  height: auto;
+  margin-top: 15px;
+}
+.dept-title {
+  font-size: 36px !important;
+  font-weight: bold;
+}
+.card p {
+  font-size: 16px;
+  margin: 6px 0;
+}
+.card p strong {
+  color: #1e3a8a;
+}
+
