@@ -1,40 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>B.Com (Honours) Dashboard</title>
-  <link rel="stylesheet" href="style.css">
+    <title>B.Com (Honours) Integrated with ACCA</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Times New Roman", serif;
+            background-color: #f4f6f8; /* Mild background */
+        }
+
+        /* NAVBAR */
+        .navbar {
+            background-color: #1e3a8a;
+            color: white;
+            padding: 15px 30px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo {
+            height: 45px;
+            width: auto;
+        }
+
+        .navbar span {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #e8eefc; /* Soft mild blue */
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+            color: #1e3a8a;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #444;
+        }
+
+        .hero img {
+            margin-top: 30px;
+            width: 90%;
+            max-width: 900px;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        /* PAYMENT SECTION */
+        .payment-section {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .payment-section h2 {
+            color: #1e3a8a;
+        }
+
+        .payment-section button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 6px;
+        }
+
+        .payment-section button:hover {
+            background-color: #1d4ed8;
+        }
+
+        /* CARD SECTION */
+        .dashboard {
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            width: 350px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .card h2 {
+            color: #1e3a8a;
+        }
+
+        .card p {
+            font-size: 16px;
+            margin: 8px 0;
+        }
+
+        .card strong {
+            color: #1e3a8a;
+        }
+
+        .qr {
+            width: 160px;
+            height: auto;
+            margin-top: 15px;
+        }
+
+    </style>
 </head>
+
 <body>
 
-<nav class="navbar">
-  <div class="nav-left">
-    <img src="acca.png" class="logo">
-    <img src="fatima.png" class="logo">
-    <span>B.Com. (Honours) integrated with ACCA, UK– Department Dashboard</span>
-  </div>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <img src="acca.png" class="logo">
+        <img src="fatima.png" class="logo">
+        <span>B.Com. (Honours) Integrated with ACCA, UK – Department Dashboard</span>
+    </nav>
 
-  
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h1>Welcome to B.Com (Honours) Integrated with ACCA</h1>
+        <p>Shaping Future Chartered Accountants & Financial Leaders</p>
+        <img src="graduate.jpg" alt="Graduate Image">
+    </section>
 
+    <!-- PAYMENT CONFIRMATION -->
+    <section class="payment-section">
+        <h2>Payment Confirmation</h2>
+        <p>
+            After making the payment using the UPI QR below, please submit your payment details using the form below:
+        </p>
 
-    <div class="nav-right">
-      <a href="https://docs.google.com/spreadsheets/d/1VkeotMRCi8wv0pZuQOVVzItKL0ywQKuj/edit?usp=sharing&ouid=118446502160697752269&rtpof=true&sd=true" target="_blank">
-        Payment Status (Excel)
-      </a>
-    </div>
-  </nav>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVgrbuLMBz0k9HZbL7wNQxakQ2eu5aerRHSOHvgDw468uKPA/viewform?usp=dialog" target="_blank">
+            <button>Submit Payment Confirmation</button>
+        </a>
+    </section>
 
- <section class="dashboard">
-  <div class="card">
-    <h2>Payment Details</h2>
-    <p><strong>UPI Number:</strong> 93604 35836</p>
-    <p><strong>Account Holder Name:</strong> Prerna Blessy </p>
-    <p>Scan the QR code to pay</p>
-    <img src="qr.png" class="qr">
-  </div>
-</section>
+    <!-- PAYMENT DETAILS CARD -->
+    <section class="dashboard">
+        <div class="card">
+            <h2>Payment Details</h2>
+            <p><strong>UPI Number:</strong> 7207846471</p>
+            <p><strong>Account Holder Name:</strong> Prerna Ans</p>
+            <p>Scan the QR code to pay</p>
+            <img src="qr.png" class="qr">
+        </div>
+    </section>
 
-   
 </body>
 </html>
-
